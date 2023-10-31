@@ -14,12 +14,12 @@ body {
 
 .root {
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 38% 62%;
     height: 114%;
-    width: 72%;
+    width: 75%;
     background-color: white;
     position: absolute;
-    left: 13%;
+    left: 11.5%;
 }
 
 /* Left side of root div */
@@ -62,8 +62,8 @@ h1 {
 
 .credit {
     position: absolute;
-    bottom: 5%;
-    left: 8%;
+    bottom: 2%;
+    left: 11%;
     color: white;
 }
 
@@ -88,7 +88,7 @@ a {
 }
 
 .twoone {
-    width: 65%;
+    width: 69%;
     height: 60%;
     position: relative;
     left: 5%;
@@ -140,6 +140,7 @@ label {
     font-size: 14px;
     position: relative;
     top: 25%;
+    margin-bottom: -10%;
 }
 
 input:focus {
