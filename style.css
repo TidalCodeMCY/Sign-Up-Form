@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse.otf');
+}
+
+/* Setup of the main root div and body */
+body {
+    height: 114%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.root {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 114%;
+    width: 72%;
+    background-color: white;
+    position: absolute;
+    left: 13%;
+}
+
+/* Left side of root div */
+
+.one {
+    height: 100%;
+    width: 100%;
+    background-image: url('background.avif');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+
+.shadow {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    top: 18%;
+}
+
+.odog {
+    height: 100px;
+    position: relative;
+    right: -65%;
+}
+
+h1 {
+    font-size: 76px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10%;
+    right: -5%;
+    font-family: 'Norse';
+    color: white;
+}
+
+.credit {
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+    color: white;
+}
+
+.credit:visited {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+/* This below is for the right side of the root */
+
+.two {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 35% 30% 35%;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.twoone {
+    width: 65%;
+    height: 60%;
+    position: relative;
+    left: 5%;
+    top: 30%;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.spanone,
+.spantwo {
+    font-style: italic;
+}
+
+.twotwo {
+    display: grid;
+    background-color: white;
+    box-shadow: 0px 0 4px 0px grey;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100%;
+    width: 70%;
+    position: relative;
+    right: -6%;
+    bottom: 14%;
+}
+
+input {
+    width: 80%;
+    height: 90%;
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
+}
+
+label {
+    margin-bottom: 1px;
+    margin-top: 4px;
+    font-weight: 200;
+}
+
+.error {
+    border-color: red;
+}
+
+.errortext {
+    color: red;
+    font-size: 14px;
+    position: relative;
+    top: 25%;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    border-color: blue;
+    box-shadow: 0 0 2px 0 blue;
+}
+
+.twothree {
+    display: grid;
+
+}
+
+.createbtn {
+    height: 32%;
+    width: 27%;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 white;
+    background-color: #596D48;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    top: 23%;
+    right: -5%;
+}
+
+.winnnerwinnerchickendinner {
+    font-size: 18px;
+    position: relative;
+    right: -5%;
+    bottom: 25%;
+}
+
+.winnera {
+    color: #596D48;
+    text-decoration: none;
+}
+
+h2 {
+    position: relative;
+    left: 6%;
+}
